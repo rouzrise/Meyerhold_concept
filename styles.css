@@ -236,6 +236,28 @@ body {
     font-size: calc(2.8em + 2vw);
     line-height: 1;
   }
+
+  .footer__ruleGroup {
+    bottom: 14px;
+  }
+
+  .subRuleGroup__volume {
+    display: none;
+  }
+
+  .subRuleGroup__socialIcons {
+    display: flex;
+    justify-content: space-between;
+    width: 5em;
+  }
+
+  .socialIcons__Facebook {
+    width: 28px;
+  }
+
+  .socialIcons__Instagram {
+    height: 28px;
+  }
 }
 
 @media (max-width: 500px) {
