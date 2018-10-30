@@ -93,7 +93,7 @@ body {
 .section__announceBlock {
   box-sizing: border-box;
   padding: 2em 3em;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
   width: 44%;
   min-width: 330px;
   /* background-image: url("bgNoise0.2opacity.png");
@@ -153,7 +153,7 @@ box-shadow: 0 0 10px rgba(114,19,15,0.5);
 /* FOOTER */
 
 .footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
   z-index: 20000;
