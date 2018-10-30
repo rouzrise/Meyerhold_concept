@@ -143,9 +143,9 @@ body {
   background-color: #9b231e;
 }
 
-.button:focus{
-outline: none;
-box-shadow: 0 0 10px rgba(114,19,15,0.5);
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(114, 19, 15, 0.5);
 }
 
 /* END OF MAIN STYLES */
@@ -153,7 +153,7 @@ box-shadow: 0 0 10px rgba(114,19,15,0.5);
 /* FOOTER */
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   z-index: 20000;
@@ -183,10 +183,10 @@ box-shadow: 0 0 10px rgba(114,19,15,0.5);
   background-color: #505050;
 }
 
-.projectButton:focus{
+.projectButton:focus {
   outline: none;
-  box-shadow: 0 0 10px rgba(26,26,26,0.8);
-  }
+  box-shadow: 0 0 10px rgba(26, 26, 26, 0.8);
+}
 
 .footer__ruleGroup {
   position: absolute;
@@ -250,7 +250,7 @@ box-shadow: 0 0 10px rgba(114,19,15,0.5);
 
   .main__section {
     justify-content: flex-start;
-    margin-top: 120px;
+    margin-top: 80px;
   }
 
   .section__header {
