@@ -286,7 +286,7 @@ body {
   }
 
   .section__buttonContainer {
-    margin-top: 33px;
+    /* margin-top: 33px; */
   }
 }
 
@@ -303,6 +303,6 @@ body {
   }
 
   .section__buttonContainer {
-    margin-top: -20px;
+    /* margin-top: -20px; */
   }
 }
